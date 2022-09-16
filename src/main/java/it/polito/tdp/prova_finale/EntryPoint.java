@@ -3,7 +3,7 @@ package it.polito.tdp.prova_finale;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 
-import it.polito.tdp.prova_finale.FXMLController;
+import it.polito.tdp.prova_finale.StartController;
 import it.polito.tdp.prova_finale.model.Model;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -21,7 +21,7 @@ public class EntryPoint extends Application {
         Scene scene = new Scene(root);
         
         Model model = new Model();
-        FXMLController controller = loader.getController();
+        StartController controller = loader.getController();
         controller.setModel(model);
         
         scene.getStylesheets().add("/styles/Styles.css");
