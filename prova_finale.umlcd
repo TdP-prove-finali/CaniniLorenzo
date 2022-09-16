@@ -1,0 +1,2279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_4XguoDXGEe2l49Ux-yx_5Q">
+  <modelElement href="prova_finale.uml#_4o4LcjXGEe2l49Ux-yx_5Q"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42DEwDXGEe2l49Ux-yx_5Q" sourceAnchor="0.0,563.0" targetAnchor="937.0,220.0" target="_42z5yTXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tuPMDXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42DEwTXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tuPMjXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42DEwjXGEe2l49Ux-yx_5Q" text="">
+      <visualProperties xmi:id="_4-B8EDXGEe2l49Ux-yx_5Q" position="-26.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_42DEwzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tuPMTXGEe2l49Ux-yx_5Q"/>
+      <visualProperties xmi:id="_4-BVAzXGEe2l49Ux-yx_5Q" position="-28.0,-47.0"/>
+      <visibility xmi:id="_42DExDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42DExTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42DExjXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="model" navigable="true">
+      <modelElement href="prova_finale.uml#_4tN44DXGEe2l49Ux-yx_5Q"/>
+      <visualProperties xmi:id="_4-B8ETXGEe2l49Ux-yx_5Q" position="12.0,2.0"/>
+      <visibility xmi:id="_42DExzXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42DEyDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42Dr0DXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tuPMzXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42Dr0TXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tuPNTXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42Dr0jXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42Dr0zXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tuPNDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42Dr1DXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42Dr1TXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42Dr1jXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="resources" navigable="true">
+      <modelElement href="prova_finale.uml#_4tPHBTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42Dr1zXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42Dr2DXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42ES4DXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tuPNjXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42ES4TXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tu2QDXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42ES4jXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42ES4zXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tuPNzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42ES5DXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42ES5TXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42ES5jXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="location" navigable="true">
+      <modelElement href="prova_finale.uml#_4tPuEjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42ES5zXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42ES6DXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42ES6TXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tu2QTXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42ES6jXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tu2QzXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42ES6zXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42ES7DXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tu2QjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42ES7TXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42ES7jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42ES7zXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="cmbIndirizzo" navigable="true">
+      <modelElement href="prova_finale.uml#_4tPuFjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42ES8DXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42ES8TXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42E58DXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tu2RDXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42E58TXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tu2RjXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42E58jXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42E58zXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tu2RTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42E59DXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42E59TXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42E59jXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="txtStudenti1" navigable="true">
+      <modelElement href="prova_finale.uml#_4tQVJDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42E59zXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42E5-DXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42E5-TXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tu2RzXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42E5-jXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tvdUDXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42E5-zXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42E5_DXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tu2SDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42E5_TXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42E5_jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42E5_zXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="txtStudenti2" navigable="true">
+      <modelElement href="prova_finale.uml#_4tQVKDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42E6ADXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42E6ATXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42FhADXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tvdUTXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42FhATXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tvdUzXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42FhAjXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42FhAzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tvdUjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42FhBDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42FhBTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42FhBjXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="txtStudenti3" navigable="true">
+      <modelElement href="prova_finale.uml#_4tQ8MzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42FhBzXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42FhCDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42FhCTXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tvdVDXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42FhCjXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tvdVjXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42FhCzXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42FhDDXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tvdVTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42FhDTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42FhDjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42FhDzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="txtStudenti4" navigable="true">
+      <modelElement href="prova_finale.uml#_4tQ8NzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42FhEDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42FhETXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42GIEDXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tvdVzXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42GIETXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4twEYDXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42GIEjXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42GIEzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tvdWDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42GIFDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42GIFTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42GIFjXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="txtStudenti5" navigable="true">
+      <modelElement href="prova_finale.uml#_4tRjQzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42GIFzXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42GIGDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42GIGTXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4twEYTXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42GIGjXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4twEYzXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42GIGzXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42GIHDXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4twEYjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42GIHTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42GIHjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42GIHzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="cmbClassi1" navigable="true">
+      <modelElement href="prova_finale.uml#_4tRjRzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42GIIDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42GIITXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42GvIDXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4twEZDXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42GvITXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4twEZjXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42GvIjXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42GvIzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4twEZTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42GvJDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42GvJTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42GvJjXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="cmbClassi2" navigable="true">
+      <modelElement href="prova_finale.uml#_4tSKVDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42GvJzXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42GvKDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42GvKTXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4twEZzXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42GvKjXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4twEaTXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42GvKzXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42GvLDXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4twEaDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42GvLTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42GvLjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42GvLzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="cmbClassi3" navigable="true">
+      <modelElement href="prova_finale.uml#_4tSxYzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42GvMDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42GvMTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42HWMDXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4twrcDXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42HWMTXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4twrcjXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42HWMjXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42HWMzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4twrcTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42HWNDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42HWNTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42HWNjXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="cmbClassi4" navigable="true">
+      <modelElement href="prova_finale.uml#_4tTYcDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42HWNzXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42HWODXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42H9QDXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4twrczXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42H9QTXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4twrdTXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42H9QjXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42H9QzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4twrdDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42H9RDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42H9RTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42H9RjXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="cmbClassi5" navigable="true">
+      <modelElement href="prova_finale.uml#_4tTYdTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42H9RzXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42H9SDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42H9STXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4txSgDXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42H9SjXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4txSgjXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42H9SzXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42H9TDXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4txSgTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42H9TTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42H9TjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42H9TzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="lblErrore" navigable="true">
+      <modelElement href="prova_finale.uml#_4tT_hDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42H9UDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42H9UTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42IkUDXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4txSgzXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42IkUTXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4txShTXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42IkUjXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42IkUzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4txShDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42IkVDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42IkVTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42IkVjXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="btnSimula" navigable="true">
+      <modelElement href="prova_finale.uml#_4tUmkDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42IkVzXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42IkWDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42IkWTXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tx5kDXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42IkWjXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tx5kjXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42IkWzXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42IkXDXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tx5kTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42IkXTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42IkXjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42IkXzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="btnReset" navigable="true">
+      <modelElement href="prova_finale.uml#_4tUmlDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42IkYDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42IkYTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42JLYDXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tx5kzXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42JLYTXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tx5lTXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42JLYjXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42JLYzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tx5lDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42JLZDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42JLZTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42JLZjXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="txtArea" navigable="true">
+      <modelElement href="prova_finale.uml#_4tUmmDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42JLZzXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42JLaDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42JLaTXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tx5ljXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42JLajXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tygoDXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42JLazXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42JLbDXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tx5lzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42JLbTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42JLbjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42JLbzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="btnPrime" navigable="true">
+      <modelElement href="prova_finale.uml#_4tVNozXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42JLcDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42JLcTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42JycDXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tygoTXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42JycTXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tygozXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42JycjXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42JyczXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tygojXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42JydDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42JydTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42JydjXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="btnSeconde" navigable="true">
+      <modelElement href="prova_finale.uml#_4tVNpzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42JydzXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42JyeDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42JyeTXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tygpDXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42JyejXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tygpjXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42JyezXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42JyfDXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tygpTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42JyfTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42JyfjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42JyfzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="btnTerze" navigable="true">
+      <modelElement href="prova_finale.uml#_4tV0szXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42JygDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42JygTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42KZgDXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tygpzXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42KZgTXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tzHsDXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42KZgjXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42KZgzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tygqDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42KZhDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42KZhTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42KZhjXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="btnQuarte" navigable="true">
+      <modelElement href="prova_finale.uml#_4tV0tzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42KZhzXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42KZiDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42KZiTXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tzHsTXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42KZijXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tzHszXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42KZizXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42KZjDXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tzHsjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42KZjTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42KZjjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42KZjzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="btnQuinte" navigable="true">
+      <modelElement href="prova_finale.uml#_4tWbwzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42KZkDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42KZkTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42KZkjXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tzHtDXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42KZkzXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tzHtjXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42KZlDXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42KZlTXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tzHtTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42KZljXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42KZlzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42KZmDXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="lblCosti" navigable="true">
+      <modelElement href="prova_finale.uml#_4tWbxzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42KZmTXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42KZmjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42LAkDXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tzHtzXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42LAkTXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tzuwDXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42LAkjXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42LAkzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tzHuDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42LAlDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42LAlTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42LAljXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="costi" navigable="true">
+      <modelElement href="prova_finale.uml#_4tXC0zXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42LAlzXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LAmDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42LAmTXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tzuwTXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42LAmjXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tzuwzXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42LAmzXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42LAnDXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tzuwjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42LAnTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42LAnjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42LAnzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="btnCosti" navigable="true">
+      <modelElement href="prova_finale.uml#_4tXC1zXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42LAoDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LAoTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42LnoDXGEe2l49Ux-yx_5Q" source="_42LnqTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tzuxDXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42LnoTXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4tzuxjXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42LnojXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42LnozXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tzuxTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42LnpDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42LnpTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42LnpjXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="txtCosti" navigable="true">
+      <modelElement href="prova_finale.uml#_4tXp4jXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42LnpzXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LnqDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42o6oDXGEe2l49Ux-yx_5Q" sourceAnchor="0.0,36.0" targetAnchor="421.0,45.0" target="_42qIxjXGEe2l49Ux-yx_5Q" source="_42z5yTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4t0V0TXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42qIwDXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4t0V0zXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42phsDXGEe2l49Ux-yx_5Q" text="">
+      <visualProperties xmi:id="_4-CjITXGEe2l49Ux-yx_5Q" position="2.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_42phsTXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4t0V0jXGEe2l49Ux-yx_5Q"/>
+      <visualProperties xmi:id="_4-CjIDXGEe2l49Ux-yx_5Q" position="-29.0,-47.0"/>
+      <visibility xmi:id="_42qIwjXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42qIwTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42phsjXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="dao" navigable="true">
+      <modelElement href="prova_finale.uml#_4tZfEjXGEe2l49Ux-yx_5Q"/>
+      <visualProperties xmi:id="_4-CjIjXGEe2l49Ux-yx_5Q" position="21.0,-47.0"/>
+      <stereotypes xmi:id="_42qIxTXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tZfEzXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42qIxDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42qIwzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42tzIDXGEe2l49Ux-yx_5Q" source="_42tzKTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4tzuxzXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42tzITXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4t0V0DXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42tzIjXGEe2l49Ux-yx_5Q" text=""/>
+    <sourceRole xmi:id="_42tzIzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4tzuyDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42tzJDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42tzJTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42tzJjXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="ds" navigable="true">
+      <modelElement href="prova_finale.uml#_4tY4AjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42tzJzXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42tzKDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_42z5wDXGEe2l49Ux-yx_5Q" sourceAnchor="502.0,0.0" targetAnchor="255.0,290.0" target="_43Ip4TXGEe2l49Ux-yx_5Q" source="_42z5yTXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4t0V1DXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_42z5wTXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4t0V1jXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_42z5wjXGEe2l49Ux-yx_5Q" text="">
+      <visualProperties xmi:id="_4-DKMTXGEe2l49Ux-yx_5Q" position="2.0,14.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_42z5wzXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4t0V1TXGEe2l49Ux-yx_5Q"/>
+      <visualProperties xmi:id="_4-DKMDXGEe2l49Ux-yx_5Q" position="41.0,-84.0"/>
+      <visibility xmi:id="_42z5xDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z5xTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_42z5xjXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="scuola" navigable="true">
+      <modelElement href="prova_finale.uml#_4taGIDXGEe2l49Ux-yx_5Q"/>
+      <visualProperties xmi:id="_4-DKMjXGEe2l49Ux-yx_5Q" position="-51.0,13.0"/>
+      <visibility xmi:id="_42z5xzXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z5yDXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_43HbwDXGEe2l49Ux-yx_5Q" sourceAnchor="0.0,161.0" targetAnchor="347.0,87.0" target="_43NiYDXGEe2l49Ux-yx_5Q" source="_43Ip4TXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4t0V1zXGEe2l49Ux-yx_5Q"/>
+    <stereotypes xmi:id="_43IC0zXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4t084DXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_43IC0DXGEe2l49Ux-yx_5Q" text="">
+      <visualProperties xmi:id="_4-DxQTXGEe2l49Ux-yx_5Q" position="-18.5,-18.499999999999943"/>
+    </nameVisual>
+    <sourceRole xmi:id="_43IC0TXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="">
+      <modelElement href="prova_finale.uml#_4t0V2DXGEe2l49Ux-yx_5Q"/>
+      <visualProperties xmi:id="_4-DxQDXGEe2l49Ux-yx_5Q" position="-29.70833333333337,-46.5"/>
+      <visibility xmi:id="_43IC1TXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43IC1DXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_43IC0jXGEe2l49Ux-yx_5Q" aggregationKind="NONE" name="pagella" navigable="true">
+      <modelElement href="prova_finale.uml#_4tbUQzXGEe2l49Ux-yx_5Q"/>
+      <visualProperties xmi:id="_4-DxQjXGEe2l49Ux-yx_5Q" position="42.571428571428555,-46.49999999999997"/>
+      <visibility xmi:id="_43Ip4DXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43IC1jXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_42wPYDXGEe2l49Ux-yx_5Q" name="TestDao">
+    <modelElement href="prova_finale.uml#_4pyxcDXGEe2l49Ux-yx_5Q"/>
+    <visualProperties xmi:id="_42wPYTXGEe2l49Ux-yx_5Q" position="210.0,881.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_42wPYjXGEe2l49Ux-yx_5Q" label="+"/>
+    <operations xmi:id="_42wPYzXGEe2l49Ux-yx_5Q" name="main" staticOperation="true">
+      <modelElement href="prova_finale.uml#_4pyxcTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42wPZDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42wPZTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_42wPZjXGEe2l49Ux-yx_5Q" name="args">
+        <modelElement href="prova_finale.uml#_4pzYgDXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42wPZzXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_42wPaDXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_414ssDXGEe2l49Ux-yx_5Q" name="Main">
+    <modelElement href="prova_finale.uml#_4piSwDXGEe2l49Ux-yx_5Q"/>
+    <visualProperties xmi:id="_414ssTXGEe2l49Ux-yx_5Q" position="30.0,1007.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_414ssjXGEe2l49Ux-yx_5Q" label="+"/>
+    <operations xmi:id="_414sszXGEe2l49Ux-yx_5Q" name="main" staticOperation="true">
+      <modelElement href="prova_finale.uml#_4pi50DXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_414stDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_414stTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_414stjXGEe2l49Ux-yx_5Q" name="args">
+        <modelElement href="prova_finale.uml#_4pi50TXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_414stzXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_414suDXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_413ekDXGEe2l49Ux-yx_5Q" name="Exception">
+    <modelElement href="prova_finale.uml#_4s6W4TXGEe2l49Ux-yx_5Q"/>
+    <visualProperties xmi:id="_413ekTXGEe2l49Ux-yx_5Q" position="78.0,904.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_413ekjXGEe2l49Ux-yx_5Q" name="Reference">
+      <modelElement href="prova_finale.uml#_4s698DXGEe2l49Ux-yx_5Q"/>
+    </stereotypes>
+    <visibility xmi:id="_413ekzXGEe2l49Ux-yx_5Q" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_43P-oDXGEe2l49Ux-yx_5Q" name="TestModel">
+    <modelElement href="prova_finale.uml#_4p_lwDXGEe2l49Ux-yx_5Q"/>
+    <visualProperties xmi:id="_43P-oTXGEe2l49Ux-yx_5Q" position="-294.0,1043.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_43P-ojXGEe2l49Ux-yx_5Q" label="+"/>
+    <operations xmi:id="_43P-ozXGEe2l49Ux-yx_5Q" name="main" staticOperation="true">
+      <modelElement href="prova_finale.uml#_4qAM0DXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43P-pDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43P-pTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_43P-pjXGEe2l49Ux-yx_5Q" name="args">
+        <modelElement href="prova_finale.uml#_4qAM0TXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43P-pzXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_43P-qDXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_41cAwDXGEe2l49Ux-yx_5Q" name="EntryPoint">
+    <modelElement href="prova_finale.uml#_4pdaQDXGEe2l49Ux-yx_5Q"/>
+    <visualProperties xmi:id="_41cAwTXGEe2l49Ux-yx_5Q" position="28.0,40.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_41cAwjXGEe2l49Ux-yx_5Q" label="+"/>
+    <operations xmi:id="_41cAwzXGEe2l49Ux-yx_5Q" name="main" staticOperation="true">
+      <modelElement href="prova_finale.uml#_4phEoDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_41cAxDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_41cAxTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_41cAxjXGEe2l49Ux-yx_5Q" name="args">
+        <modelElement href="prova_finale.uml#_4phEoTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_41cAxzXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_41cAyDXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_41cn0DXGEe2l49Ux-yx_5Q" name="start">
+      <modelElement href="prova_finale.uml#_4s698TXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_41cn0TXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4s698zXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_41cn0jXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4s8zIDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_41cn0zXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_41cn1DXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_41cn1TXGEe2l49Ux-yx_5Q" name="stage">
+        <modelElement href="prova_finale.uml#_4s698jXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_41cn1jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_41cn1zXGEe2l49Ux-yx_5Q" name="Stage">
+          <modelElement href="prova_finale.uml#_4skYozXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_43E_gDXGEe2l49Ux-yx_5Q" name="Materia">
+    <modelElement href="prova_finale.uml#_4pzYgjXGEe2l49Ux-yx_5Q"/>
+    <visualProperties xmi:id="_43E_gTXGEe2l49Ux-yx_5Q" position="171.0,649.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_43E_gjXGEe2l49Ux-yx_5Q" label="+"/>
+    <attributes xmi:id="_43E_gzXGEe2l49Ux-yx_5Q" name="codMat">
+      <modelElement href="prova_finale.uml#_4tY4BDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43E_hDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43E_hTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_43E_hjXGEe2l49Ux-yx_5Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_43E_hzXGEe2l49Ux-yx_5Q" name="materia">
+      <modelElement href="prova_finale.uml#_4tZfEDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43E_iDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43E_iTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_43E_ijXGEe2l49Ux-yx_5Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_43E_izXGEe2l49Ux-yx_5Q" name="rimandati">
+      <modelElement href="prova_finale.uml#_4tZfETXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43E_jDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43E_jTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_43E_jjXGEe2l49Ux-yx_5Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_43E_jzXGEe2l49Ux-yx_5Q" name="Materia">
+      <modelElement href="prova_finale.uml#_4pz_kDXGEe2l49Ux-yx_5Q"/>
+      <keywords xmi:id="_43E_kDXGEe2l49Ux-yx_5Q" keyword="create"/>
+      <visibility xmi:id="_43E_kTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43E_kjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43E_kzXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4pz_lTXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43E_lDXGEe2l49Ux-yx_5Q" name="Materia">
+          <modelElement href="prova_finale.uml#_4pzYgjXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_43E_lTXGEe2l49Ux-yx_5Q" name="codMat">
+        <modelElement href="prova_finale.uml#_4pz_kTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43E_ljXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_43E_lzXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_43E_mDXGEe2l49Ux-yx_5Q" name="materia">
+        <modelElement href="prova_finale.uml#_4pz_kjXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43E_mTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_43E_mjXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_43E_mzXGEe2l49Ux-yx_5Q" name="hashCode">
+      <modelElement href="prova_finale.uml#_4pz_ljXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_43E_nDXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4p0moTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_43E_nTXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4p0mojXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_43E_njXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43E_nzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43E_oDXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p0moDXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43E_oTXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_43E_ojXGEe2l49Ux-yx_5Q" name="toString">
+      <modelElement href="prova_finale.uml#_4p0mpDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_43E_ozXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4p1NsTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_43E_pDXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4p1NsjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_43E_pTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43E_pjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43E_pzXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p1NsDXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43E_qDXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_43E_qTXGEe2l49Ux-yx_5Q" name="equals">
+      <modelElement href="prova_finale.uml#_4tF9EjXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_43E_qjXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tF9FTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_43E_qzXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tGkIDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_43E_rDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43E_rTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43E_rjXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4tF9FDXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43E_rzXGEe2l49Ux-yx_5Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_43E_sDXGEe2l49Ux-yx_5Q" name="obj">
+        <modelElement href="prova_finale.uml#_4tF9EzXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43E_sTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_43E_sjXGEe2l49Ux-yx_5Q" name="Object">
+          <modelElement href="prova_finale.uml#_4tF9EDXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_42qIxjXGEe2l49Ux-yx_5Q" name="ScuolaDao" associationsIn="_42o6oDXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4pw8QDXGEe2l49Ux-yx_5Q"/>
+    <visualProperties xmi:id="_42qv0DXGEe2l49Ux-yx_5Q" position="127.0,443.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_42qv0TXGEe2l49Ux-yx_5Q" label="+"/>
+    <operations xmi:id="_42qv0jXGEe2l49Ux-yx_5Q" name="getAllVoti">
+      <modelElement href="prova_finale.uml#_4pxjUDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42qv0zXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42qv1DXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_42qv1TXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4pxjVDXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42qv1jXGEe2l49Ux-yx_5Q" name="Voto">
+          <modelElement href="prova_finale.uml#_4qAM0zXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_42qv1zXGEe2l49Ux-yx_5Q" name="indirizzo">
+        <modelElement href="prova_finale.uml#_4pxjUTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42qv2DXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42qv2TXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42qv2jXGEe2l49Ux-yx_5Q" name="classe">
+        <modelElement href="prova_finale.uml#_4pxjUjXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42qv2zXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42qv3DXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42qv3TXGEe2l49Ux-yx_5Q" name="materia">
+        <modelElement href="prova_finale.uml#_4pxjUzXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42qv3jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42qv3zXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42qv4DXGEe2l49Ux-yx_5Q" name="getMaterie">
+      <modelElement href="prova_finale.uml#_4pyKYDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42qv4TXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42qv4jXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_42qv4zXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4pyKYzXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42qv5DXGEe2l49Ux-yx_5Q" name="Materia">
+          <modelElement href="prova_finale.uml#_4pzYgjXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_42qv5TXGEe2l49Ux-yx_5Q" name="classe">
+        <modelElement href="prova_finale.uml#_4pyKYTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42qv5jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42qv5zXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42qv6DXGEe2l49Ux-yx_5Q" name="indirizzo">
+        <modelElement href="prova_finale.uml#_4pyKYjXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42qv6TXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42qv6jXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42qv6zXGEe2l49Ux-yx_5Q" name="getCodStud">
+      <modelElement href="prova_finale.uml#_4pyKZTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42qv7DXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42qv7TXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_42qv7jXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4pyKZjXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42qv7zXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_42tzKTXGEe2l49Ux-yx_5Q" name="DBConnect" associationsOut="_42tzIDXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4pvHEDXGEe2l49Ux-yx_5Q"/>
+    <visualProperties xmi:id="_42tzKjXGEe2l49Ux-yx_5Q" position="-45.0,1135.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_42tzKzXGEe2l49Ux-yx_5Q" label="+"/>
+    <attributes xmi:id="_42tzLDXGEe2l49Ux-yx_5Q" defaultValue="&quot;jdbc:mysql://localhost/scuola&quot;" name="jdbcURL" staticAttribute="true">
+      <modelElement href="prova_finale.uml#_4tY4ADXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42tzLTXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42tzLjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42tzLzXGEe2l49Ux-yx_5Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42tzMDXGEe2l49Ux-yx_5Q" name="ds" staticAttribute="true">
+      <modelElement href="prova_finale.uml#_4tY4AjXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42tzMTXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tY4AzXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42tzMjXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42tzMzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42tzNDXGEe2l49Ux-yx_5Q" name="HikariDataSource">
+        <modelElement href="prova_finale.uml#_4swl4zXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_42tzNTXGEe2l49Ux-yx_5Q" name="getConnection" staticOperation="true">
+      <modelElement href="prova_finale.uml#_4pwVMDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42tzNjXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42tzNzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_42tzODXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4tFWADXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42tzOTXGEe2l49Ux-yx_5Q" name="Connection">
+          <modelElement href="prova_finale.uml#_4svXwDXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_42z5yTXGEe2l49Ux-yx_5Q" name="Model" associationsIn="_42DEwDXGEe2l49Ux-yx_5Q" associationsOut="_42o6oDXGEe2l49Ux-yx_5Q _42z5wDXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4p10wDXGEe2l49Ux-yx_5Q"/>
+    <visualProperties xmi:id="_42z5yjXGEe2l49Ux-yx_5Q" position="667.0,452.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_42z5yzXGEe2l49Ux-yx_5Q" label="+"/>
+    <attributes xmi:id="_42z5zDXGEe2l49Ux-yx_5Q" name="dao">
+      <modelElement href="prova_finale.uml#_4tZfEjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z5zTXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42z5zjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42z5zzXGEe2l49Ux-yx_5Q" name="ScuolaDao">
+        <modelElement href="prova_finale.uml#_4pw8QDXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42z50DXGEe2l49Ux-yx_5Q" defaultValue="new ArrayList&lt;Studente>()" name="scuola">
+      <modelElement href="prova_finale.uml#_4taGIDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z50TXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z50jXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_42z50zXGEe2l49Ux-yx_5Q" name="Studente">
+        <modelElement href="prova_finale.uml#_4p8icDXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42z51DXGEe2l49Ux-yx_5Q" defaultValue="{'A', 'B', 'C', 'D'}" name="sezioni">
+      <modelElement href="prova_finale.uml#_4taGIzXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42z51TXGEe2l49Ux-yx_5Q" name="Array">
+        <modelElement href="prova_finale.uml#_4taGJTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42z51jXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4taGJzXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42z51zXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42z52DXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_42z52TXGEe2l49Ux-yx_5Q" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42z52jXGEe2l49Ux-yx_5Q" defaultValue="144000" name="spesePerPersonale">
+      <modelElement href="prova_finale.uml#_4taGKDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42z52zXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4taGKjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42z53DXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42z53TXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42z53jXGEe2l49Ux-yx_5Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_42z53zXGEe2l49Ux-yx_5Q" name="Model">
+      <modelElement href="prova_finale.uml#_4p2b0DXGEe2l49Ux-yx_5Q"/>
+      <keywords xmi:id="_42z54DXGEe2l49Ux-yx_5Q" keyword="create"/>
+      <visibility xmi:id="_42z54TXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z54jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_42z54zXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p2b0zXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42z55DXGEe2l49Ux-yx_5Q" name="Model">
+          <modelElement href="prova_finale.uml#_4p10wDXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_42z55TXGEe2l49Ux-yx_5Q" name="creaScuola">
+      <modelElement href="prova_finale.uml#_4p2b1DXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z55jXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z55zXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_42z56DXGEe2l49Ux-yx_5Q" name="nStud1">
+        <modelElement href="prova_finale.uml#_4p2b1TXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z56TXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z56jXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z56zXGEe2l49Ux-yx_5Q" name="nStud2">
+        <modelElement href="prova_finale.uml#_4p2b1jXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z57DXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z57TXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z57jXGEe2l49Ux-yx_5Q" name="nStud3">
+        <modelElement href="prova_finale.uml#_4p3C4DXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z57zXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z58DXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z58TXGEe2l49Ux-yx_5Q" name="nStud4">
+        <modelElement href="prova_finale.uml#_4p3C4TXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z58jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z58zXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z59DXGEe2l49Ux-yx_5Q" name="nStud5">
+        <modelElement href="prova_finale.uml#_4p3C4jXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z59TXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z59jXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z59zXGEe2l49Ux-yx_5Q" name="nClassi1">
+        <modelElement href="prova_finale.uml#_4p3C4zXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z5-DXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z5-TXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z5-jXGEe2l49Ux-yx_5Q" name="nClassi2">
+        <modelElement href="prova_finale.uml#_4p3C5DXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z5-zXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z5_DXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z5_TXGEe2l49Ux-yx_5Q" name="nClassi3">
+        <modelElement href="prova_finale.uml#_4p3C5TXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z5_jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z5_zXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z6ADXGEe2l49Ux-yx_5Q" name="nClassi4">
+        <modelElement href="prova_finale.uml#_4p3C5jXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6ATXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6AjXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z6AzXGEe2l49Ux-yx_5Q" name="nClassi5">
+        <modelElement href="prova_finale.uml#_4p3C5zXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6BDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6BTXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z6BjXGEe2l49Ux-yx_5Q" name="indirizzo">
+        <modelElement href="prova_finale.uml#_4p3C6DXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6BzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6CDXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42z6CTXGEe2l49Ux-yx_5Q" name="creaClasse">
+      <modelElement href="prova_finale.uml#_4p3C6TXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6CjXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42z6CzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_42z6DDXGEe2l49Ux-yx_5Q" name="NStud">
+        <modelElement href="prova_finale.uml#_4p3C6jXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6DTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6DjXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z6DzXGEe2l49Ux-yx_5Q" name="NClassi">
+        <modelElement href="prova_finale.uml#_4p3p8DXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6EDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6ETXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z6EjXGEe2l49Ux-yx_5Q" name="anno">
+        <modelElement href="prova_finale.uml#_4p3p8TXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6EzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6FDXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z6FTXGEe2l49Ux-yx_5Q" name="indirizzo">
+        <modelElement href="prova_finale.uml#_4p3p8jXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6FjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6FzXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42z6GDXGEe2l49Ux-yx_5Q" name="simulaAnno">
+      <modelElement href="prova_finale.uml#_4p3p8zXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6GTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z6GjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_42z6GzXGEe2l49Ux-yx_5Q" name="calcolaVoto">
+      <modelElement href="prova_finale.uml#_4p3p9DXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6HDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42z6HTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_42z6HjXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p3p-DXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42z6HzXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_42z6IDXGEe2l49Ux-yx_5Q" name="indirizzo">
+        <modelElement href="prova_finale.uml#_4p3p9TXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6ITXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6IjXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z6IzXGEe2l49Ux-yx_5Q" name="classe">
+        <modelElement href="prova_finale.uml#_4p3p9jXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6JDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6JTXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z6JjXGEe2l49Ux-yx_5Q" name="materia">
+        <modelElement href="prova_finale.uml#_4p3p9zXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6JzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6KDXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42z6KTXGEe2l49Ux-yx_5Q" name="simulaVoto">
+      <modelElement href="prova_finale.uml#_4p4RADXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6KjXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42z6KzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_42z6LDXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p4RAjXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42z6LTXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_42z6LjXGEe2l49Ux-yx_5Q" name="probabilità">
+        <modelElement href="prova_finale.uml#_4p4RATXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6LzXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_42z6MDXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42z6MTXGEe2l49Ux-yx_5Q" name="contaBocciati">
+      <modelElement href="prova_finale.uml#_4p4RBDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42z6MjXGEe2l49Ux-yx_5Q" name="Array">
+        <modelElement href="prova_finale.uml#_4p44EjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42z6MzXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z6NDXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_42z6NTXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p44EDXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42z6NjXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_42z6NzXGEe2l49Ux-yx_5Q" name="contaProfessori">
+      <modelElement href="prova_finale.uml#_4p44EzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6ODXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z6OTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_42z6OjXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p44FTXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42z6OzXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_42z6PDXGEe2l49Ux-yx_5Q" name="indirizzo">
+        <modelElement href="prova_finale.uml#_4p44FDXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6PTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6PjXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42z6PzXGEe2l49Ux-yx_5Q" name="getSpesePersonale">
+      <modelElement href="prova_finale.uml#_4p5fIDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6QDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z6QTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_42z6QjXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p5fITXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42z6QzXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_42z6RDXGEe2l49Ux-yx_5Q" name="calcolaRisparmi">
+      <modelElement href="prova_finale.uml#_4p5fIjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6RTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z6RjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_42z6RzXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p5fJjXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42z6SDXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_42z6STXGEe2l49Ux-yx_5Q" name="budget">
+        <modelElement href="prova_finale.uml#_4p5fIzXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6SjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6SzXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z6TDXGEe2l49Ux-yx_5Q" name="nStud">
+        <modelElement href="prova_finale.uml#_4p5fJDXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6TTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6TjXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z6TzXGEe2l49Ux-yx_5Q" name="nProfessori">
+        <modelElement href="prova_finale.uml#_4p5fJTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6UDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6UTXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42z6UjXGEe2l49Ux-yx_5Q" name="costiAmministrativi">
+      <modelElement href="prova_finale.uml#_4p6GMDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6UzXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z6VDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_42z6VTXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p6GMjXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42z6VjXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_42z6VzXGEe2l49Ux-yx_5Q" name="budget">
+        <modelElement href="prova_finale.uml#_4p6GMTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6WDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6WTXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42z6WjXGEe2l49Ux-yx_5Q" name="costiLibri">
+      <modelElement href="prova_finale.uml#_4p6GMzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6WzXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z6XDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_42z6XTXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p6GNTXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42z6XjXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_42z6XzXGEe2l49Ux-yx_5Q" name="nStud">
+        <modelElement href="prova_finale.uml#_4p6GNDXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6YDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6YTXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42z6YjXGEe2l49Ux-yx_5Q" name="costiCorsiRecupero">
+      <modelElement href="prova_finale.uml#_4p6GNjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6YzXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z6ZDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_42z6ZTXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p6tQDXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42z6ZjXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_42z6ZzXGEe2l49Ux-yx_5Q" name="nProfessori">
+        <modelElement href="prova_finale.uml#_4p6GNzXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6aDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6aTXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42z6ajXGEe2l49Ux-yx_5Q" name="resetScuola">
+      <modelElement href="prova_finale.uml#_4p6tQTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6azXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z6bDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_42z6bTXGEe2l49Ux-yx_5Q" name="clearPagelle">
+      <modelElement href="prova_finale.uml#_4p6tQjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6bjXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z6bzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_42z6cDXGEe2l49Ux-yx_5Q" name="getMaterie">
+      <modelElement href="prova_finale.uml#_4p6tQzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6cTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z6cjXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_42z6czXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p6tRjXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42z6dDXGEe2l49Ux-yx_5Q" name="Materia">
+          <modelElement href="prova_finale.uml#_4pzYgjXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_42z6dTXGEe2l49Ux-yx_5Q" name="indirizzo">
+        <modelElement href="prova_finale.uml#_4p6tRDXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6djXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6dzXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z6eDXGEe2l49Ux-yx_5Q" name="anno">
+        <modelElement href="prova_finale.uml#_4p6tRTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6eTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6ejXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42z6ezXGEe2l49Ux-yx_5Q" name="calcolaPercentuali">
+      <modelElement href="prova_finale.uml#_4tHLMDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42z6fDXGEe2l49Ux-yx_5Q" name="Array">
+        <modelElement href="prova_finale.uml#_4tHLNDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42z6fTXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42z6fjXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_42z6fzXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4tHLMjXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42z6gDXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_42z6gTXGEe2l49Ux-yx_5Q" name="v">
+        <modelElement href="prova_finale.uml#_4tHLMTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6gjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6gzXGEe2l49Ux-yx_5Q" name="List">
+          <modelElement href="prova_finale.uml#_4smN0TXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42z6hDXGEe2l49Ux-yx_5Q" name="contaVoti">
+      <modelElement href="prova_finale.uml#_4tHyQDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6hTXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42z6hjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_42z6hzXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4tHyQzXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42z6iDXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_42z6iTXGEe2l49Ux-yx_5Q" name="i">
+        <modelElement href="prova_finale.uml#_4tHyQTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6ijXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6izXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z6jDXGEe2l49Ux-yx_5Q" name="v">
+        <modelElement href="prova_finale.uml#_4tHyQjXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6jTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6jjXGEe2l49Ux-yx_5Q" name="List">
+          <modelElement href="prova_finale.uml#_4smN0TXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42z6jzXGEe2l49Ux-yx_5Q" name="contaRimandati">
+      <modelElement href="prova_finale.uml#_4tIZUDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42z6kDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_42z6kTXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_42z6kjXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4tIZUzXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_42z6kzXGEe2l49Ux-yx_5Q" name="Materia">
+          <modelElement href="prova_finale.uml#_4pzYgjXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_42z6lDXGEe2l49Ux-yx_5Q" name="materie">
+        <modelElement href="prova_finale.uml#_4tIZUTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6lTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6ljXGEe2l49Ux-yx_5Q" name="List">
+          <modelElement href="prova_finale.uml#_4smN0TXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_42z6lzXGEe2l49Ux-yx_5Q" name="anno">
+        <modelElement href="prova_finale.uml#_4tIZUjXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42z6mDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42z6mTXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_42LnqTXGEe2l49Ux-yx_5Q" name="StartController" associationsOut="_42DEwDXGEe2l49Ux-yx_5Q _42Dr0DXGEe2l49Ux-yx_5Q _42ES4DXGEe2l49Ux-yx_5Q _42ES6TXGEe2l49Ux-yx_5Q _42E58DXGEe2l49Ux-yx_5Q _42E5-TXGEe2l49Ux-yx_5Q _42FhADXGEe2l49Ux-yx_5Q _42FhCTXGEe2l49Ux-yx_5Q _42GIEDXGEe2l49Ux-yx_5Q _42GIGTXGEe2l49Ux-yx_5Q _42GvIDXGEe2l49Ux-yx_5Q _42GvKTXGEe2l49Ux-yx_5Q _42HWMDXGEe2l49Ux-yx_5Q _42H9QDXGEe2l49Ux-yx_5Q _42H9STXGEe2l49Ux-yx_5Q _42IkUDXGEe2l49Ux-yx_5Q _42IkWTXGEe2l49Ux-yx_5Q _42JLYDXGEe2l49Ux-yx_5Q _42JLaTXGEe2l49Ux-yx_5Q _42JycDXGEe2l49Ux-yx_5Q _42JyeTXGEe2l49Ux-yx_5Q _42KZgDXGEe2l49Ux-yx_5Q _42KZiTXGEe2l49Ux-yx_5Q _42KZkjXGEe2l49Ux-yx_5Q _42LAkDXGEe2l49Ux-yx_5Q _42LAmTXGEe2l49Ux-yx_5Q _42LnoDXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4pi50zXGEe2l49Ux-yx_5Q"/>
+    <visualProperties xmi:id="_42LnqjXGEe2l49Ux-yx_5Q" position="1689.0,109.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_42LnqzXGEe2l49Ux-yx_5Q" label="+"/>
+    <attributes xmi:id="_42LnrDXGEe2l49Ux-yx_5Q" name="model">
+      <modelElement href="prova_finale.uml#_4tN44DXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LnrTXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tN44TXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LnrjXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LnrzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LnsDXGEe2l49Ux-yx_5Q" name="Model">
+        <modelElement href="prova_finale.uml#_4p10wDXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LnsTXGEe2l49Ux-yx_5Q" name="nPrime">
+      <modelElement href="prova_finale.uml#_4tN44jXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LnsjXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tOf8DXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LnszXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LntDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LntTXGEe2l49Ux-yx_5Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LntjXGEe2l49Ux-yx_5Q" name="nSeconde">
+      <modelElement href="prova_finale.uml#_4tOf8TXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LntzXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tOf8jXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LnuDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LnuTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LnujXGEe2l49Ux-yx_5Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LnuzXGEe2l49Ux-yx_5Q" name="nTerze">
+      <modelElement href="prova_finale.uml#_4tOf8zXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LnvDXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tOf9DXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LnvTXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LnvjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LnvzXGEe2l49Ux-yx_5Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LnwDXGEe2l49Ux-yx_5Q" name="nQuarte">
+      <modelElement href="prova_finale.uml#_4tOf9TXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LnwTXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tPHADXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LnwjXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LnwzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LnxDXGEe2l49Ux-yx_5Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LnxTXGEe2l49Ux-yx_5Q" name="nQuinte">
+      <modelElement href="prova_finale.uml#_4tPHATXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LnxjXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tPHAjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LnxzXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LnyDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LnyTXGEe2l49Ux-yx_5Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LnyjXGEe2l49Ux-yx_5Q" name="indirizzo">
+      <modelElement href="prova_finale.uml#_4tPHAzXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LnyzXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tPHBDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LnzDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LnzTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LnzjXGEe2l49Ux-yx_5Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LnzzXGEe2l49Ux-yx_5Q" name="resources">
+      <modelElement href="prova_finale.uml#_4tPHBTXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42Ln0DXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tPHBjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42Ln0TXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tPuEDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42Ln0jXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42Ln0zXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42Ln1DXGEe2l49Ux-yx_5Q" name="ResourceBundle">
+        <modelElement href="prova_finale.uml#_4smN0zXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42Ln1TXGEe2l49Ux-yx_5Q" name="location">
+      <modelElement href="prova_finale.uml#_4tPuEjXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42Ln1jXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tPuEzXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42Ln1zXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tPuFDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42Ln2DXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42Ln2TXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42Ln2jXGEe2l49Ux-yx_5Q" name="URL">
+        <modelElement href="prova_finale.uml#_4slmwDXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42Ln2zXGEe2l49Ux-yx_5Q" name="cmbIndirizzo">
+      <modelElement href="prova_finale.uml#_4tPuFjXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42Ln3DXGEe2l49Ux-yx_5Q" name="Generics">
+        <modelElement href="prova_finale.uml#_4tQVIDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42Ln3TXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tQVITXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42Ln3jXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tQVIjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42Ln3zXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42Ln4DXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42Ln4TXGEe2l49Ux-yx_5Q" name="ComboBox">
+        <modelElement href="prova_finale.uml#_4soDATXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42Ln4jXGEe2l49Ux-yx_5Q" name="txtStudenti1">
+      <modelElement href="prova_finale.uml#_4tQVJDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42Ln4zXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tQVJTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42Ln5DXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tQVJjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42Ln5TXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42Ln5jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42Ln5zXGEe2l49Ux-yx_5Q" name="TextField">
+        <modelElement href="prova_finale.uml#_4soqEzXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42Ln6DXGEe2l49Ux-yx_5Q" name="txtStudenti2">
+      <modelElement href="prova_finale.uml#_4tQVKDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42Ln6TXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tQ8MDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42Ln6jXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tQ8MTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42Ln6zXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42Ln7DXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42Ln7TXGEe2l49Ux-yx_5Q" name="TextField">
+        <modelElement href="prova_finale.uml#_4soqEzXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42Ln7jXGEe2l49Ux-yx_5Q" name="txtStudenti3">
+      <modelElement href="prova_finale.uml#_4tQ8MzXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42Ln7zXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tQ8NDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42Ln8DXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tQ8NTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42Ln8TXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42Ln8jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42Ln8zXGEe2l49Ux-yx_5Q" name="TextField">
+        <modelElement href="prova_finale.uml#_4soqEzXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42Ln9DXGEe2l49Ux-yx_5Q" name="txtStudenti4">
+      <modelElement href="prova_finale.uml#_4tQ8NzXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42Ln9TXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tRjQDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42Ln9jXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tRjQTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42Ln9zXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42Ln-DXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42Ln-TXGEe2l49Ux-yx_5Q" name="TextField">
+        <modelElement href="prova_finale.uml#_4soqEzXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42Ln-jXGEe2l49Ux-yx_5Q" name="txtStudenti5">
+      <modelElement href="prova_finale.uml#_4tRjQzXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42Ln-zXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tRjRDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42Ln_DXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tRjRTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42Ln_TXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42Ln_jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42Ln_zXGEe2l49Ux-yx_5Q" name="TextField">
+        <modelElement href="prova_finale.uml#_4soqEzXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoADXGEe2l49Ux-yx_5Q" name="cmbClassi1">
+      <modelElement href="prova_finale.uml#_4tRjRzXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoATXGEe2l49Ux-yx_5Q" name="Generics">
+        <modelElement href="prova_finale.uml#_4tSKUDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoAjXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tSKUTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoAzXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tSKUjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoBDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoBTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoBjXGEe2l49Ux-yx_5Q" name="ComboBox">
+        <modelElement href="prova_finale.uml#_4soDATXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoBzXGEe2l49Ux-yx_5Q" name="cmbClassi2">
+      <modelElement href="prova_finale.uml#_4tSKVDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoCDXGEe2l49Ux-yx_5Q" name="Generics">
+        <modelElement href="prova_finale.uml#_4tSKVTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoCTXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tSxYDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoCjXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tSxYTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoCzXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoDDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoDTXGEe2l49Ux-yx_5Q" name="ComboBox">
+        <modelElement href="prova_finale.uml#_4soDATXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoDjXGEe2l49Ux-yx_5Q" name="cmbClassi3">
+      <modelElement href="prova_finale.uml#_4tSxYzXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoDzXGEe2l49Ux-yx_5Q" name="Generics">
+        <modelElement href="prova_finale.uml#_4tSxZDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoEDXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tSxZTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoETXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tSxZjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoEjXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoEzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoFDXGEe2l49Ux-yx_5Q" name="ComboBox">
+        <modelElement href="prova_finale.uml#_4soDATXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoFTXGEe2l49Ux-yx_5Q" name="cmbClassi4">
+      <modelElement href="prova_finale.uml#_4tTYcDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoFjXGEe2l49Ux-yx_5Q" name="Generics">
+        <modelElement href="prova_finale.uml#_4tTYcTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoFzXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tTYcjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoGDXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tTYczXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoGTXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoGjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoGzXGEe2l49Ux-yx_5Q" name="ComboBox">
+        <modelElement href="prova_finale.uml#_4soDATXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoHDXGEe2l49Ux-yx_5Q" name="cmbClassi5">
+      <modelElement href="prova_finale.uml#_4tTYdTXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoHTXGEe2l49Ux-yx_5Q" name="Generics">
+        <modelElement href="prova_finale.uml#_4tT_gDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoHjXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tT_gTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoHzXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tT_gjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoIDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoITXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoIjXGEe2l49Ux-yx_5Q" name="ComboBox">
+        <modelElement href="prova_finale.uml#_4soDATXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoIzXGEe2l49Ux-yx_5Q" name="lblErrore">
+      <modelElement href="prova_finale.uml#_4tT_hDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoJDXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tT_hTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoJTXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tT_hjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoJjXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoJzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoKDXGEe2l49Ux-yx_5Q" name="Label">
+        <modelElement href="prova_finale.uml#_4soDAzXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoKTXGEe2l49Ux-yx_5Q" name="btnSimula">
+      <modelElement href="prova_finale.uml#_4tUmkDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoKjXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tUmkTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoKzXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tUmkjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoLDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoLTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoLjXGEe2l49Ux-yx_5Q" name="Button">
+        <modelElement href="prova_finale.uml#_4snb8zXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoLzXGEe2l49Ux-yx_5Q" name="btnReset">
+      <modelElement href="prova_finale.uml#_4tUmlDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoMDXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tUmlTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoMTXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tUmljXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoMjXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoMzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoNDXGEe2l49Ux-yx_5Q" name="Button">
+        <modelElement href="prova_finale.uml#_4snb8zXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoNTXGEe2l49Ux-yx_5Q" name="txtArea">
+      <modelElement href="prova_finale.uml#_4tUmmDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoNjXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tVNoDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoNzXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tVNoTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoODXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoOTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoOjXGEe2l49Ux-yx_5Q" name="TextArea">
+        <modelElement href="prova_finale.uml#_4soqETXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoOzXGEe2l49Ux-yx_5Q" name="btnPrime">
+      <modelElement href="prova_finale.uml#_4tVNozXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoPDXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tVNpDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoPTXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tVNpTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoPjXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoPzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoQDXGEe2l49Ux-yx_5Q" name="Button">
+        <modelElement href="prova_finale.uml#_4snb8zXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoQTXGEe2l49Ux-yx_5Q" name="btnSeconde">
+      <modelElement href="prova_finale.uml#_4tVNpzXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoQjXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tV0sDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoQzXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tV0sTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoRDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoRTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoRjXGEe2l49Ux-yx_5Q" name="Button">
+        <modelElement href="prova_finale.uml#_4snb8zXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoRzXGEe2l49Ux-yx_5Q" name="btnTerze">
+      <modelElement href="prova_finale.uml#_4tV0szXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoSDXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tV0tDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoSTXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tV0tTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoSjXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoSzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoTDXGEe2l49Ux-yx_5Q" name="Button">
+        <modelElement href="prova_finale.uml#_4snb8zXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoTTXGEe2l49Ux-yx_5Q" name="btnQuarte">
+      <modelElement href="prova_finale.uml#_4tV0tzXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoTjXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tWbwDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoTzXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tWbwTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoUDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoUTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoUjXGEe2l49Ux-yx_5Q" name="Button">
+        <modelElement href="prova_finale.uml#_4snb8zXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoUzXGEe2l49Ux-yx_5Q" name="btnQuinte">
+      <modelElement href="prova_finale.uml#_4tWbwzXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoVDXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tWbxDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoVTXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tWbxTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoVjXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoVzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoWDXGEe2l49Ux-yx_5Q" name="Button">
+        <modelElement href="prova_finale.uml#_4snb8zXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoWTXGEe2l49Ux-yx_5Q" name="lblCosti">
+      <modelElement href="prova_finale.uml#_4tWbxzXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoWjXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tXC0DXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoWzXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tXC0TXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoXDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoXTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoXjXGEe2l49Ux-yx_5Q" name="Label">
+        <modelElement href="prova_finale.uml#_4soDAzXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoXzXGEe2l49Ux-yx_5Q" name="costi">
+      <modelElement href="prova_finale.uml#_4tXC0zXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoYDXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tXC1DXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoYTXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tXC1TXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoYjXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoYzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoZDXGEe2l49Ux-yx_5Q" name="TextField">
+        <modelElement href="prova_finale.uml#_4soqEzXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoZTXGEe2l49Ux-yx_5Q" name="btnCosti">
+      <modelElement href="prova_finale.uml#_4tXC1zXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LoZjXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tXC2DXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoZzXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tXp4DXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LoaDXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LoaTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LoajXGEe2l49Ux-yx_5Q" name="Button">
+        <modelElement href="prova_finale.uml#_4snb8zXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_42LoazXGEe2l49Ux-yx_5Q" name="txtCosti">
+      <modelElement href="prova_finale.uml#_4tXp4jXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LobDXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tXp4zXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LobTXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tXp5DXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LobjXGEe2l49Ux-yx_5Q" label="-"/>
+      <cardinality xmi:id="_42LobzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_42LocDXGEe2l49Ux-yx_5Q" name="TextArea">
+        <modelElement href="prova_finale.uml#_4soqETXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_42LocTXGEe2l49Ux-yx_5Q" name="initialize">
+      <modelElement href="prova_finale.uml#_4pmkMDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LocjXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4pmkMTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoczXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4pnLQDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LodDXGEe2l49Ux-yx_5Q" label="~"/>
+      <cardinality xmi:id="_42LodTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_42LodjXGEe2l49Ux-yx_5Q" name="setModel">
+      <modelElement href="prova_finale.uml#_4sqfQDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_42LodzXGEe2l49Ux-yx_5Q" label="~"/>
+      <cardinality xmi:id="_42LoeDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_42LoeTXGEe2l49Ux-yx_5Q" name="model">
+        <modelElement href="prova_finale.uml#_4srGUDXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42LoejXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42LoezXGEe2l49Ux-yx_5Q" name="Model">
+          <modelElement href="prova_finale.uml#_4p10wDXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42LofDXGEe2l49Ux-yx_5Q" name="simula">
+      <modelElement href="prova_finale.uml#_4s_PYDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LofTXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4s_PYjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LofjXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4s_PYzXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LofzXGEe2l49Ux-yx_5Q" label="~"/>
+      <cardinality xmi:id="_42LogDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_42LogTXGEe2l49Ux-yx_5Q" name="event">
+        <modelElement href="prova_finale.uml#_4s_PYTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42LogjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42LogzXGEe2l49Ux-yx_5Q" name="ActionEvent">
+          <modelElement href="prova_finale.uml#_4sm04TXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42LohDXGEe2l49Ux-yx_5Q" name="onReset">
+      <modelElement href="prova_finale.uml#_4s_PZTXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LohTXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4s_2cTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LohjXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4s_2cjXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LohzXGEe2l49Ux-yx_5Q" label="~"/>
+      <cardinality xmi:id="_42LoiDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_42LoiTXGEe2l49Ux-yx_5Q" name="event">
+        <modelElement href="prova_finale.uml#_4s_2cDXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42LoijXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42LoizXGEe2l49Ux-yx_5Q" name="ActionEvent">
+          <modelElement href="prova_finale.uml#_4sm04TXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42LojDXGEe2l49Ux-yx_5Q" name="stampaPrime">
+      <modelElement href="prova_finale.uml#_4s_2dDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LojTXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4s_2djXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LojjXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tAdgDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LojzXGEe2l49Ux-yx_5Q" label="~"/>
+      <cardinality xmi:id="_42LokDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_42LokTXGEe2l49Ux-yx_5Q" name="event">
+        <modelElement href="prova_finale.uml#_4s_2dTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42LokjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42LokzXGEe2l49Ux-yx_5Q" name="ActionEvent">
+          <modelElement href="prova_finale.uml#_4sm04TXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42LolDXGEe2l49Ux-yx_5Q" name="stampaQuarte">
+      <modelElement href="prova_finale.uml#_4tAdgjXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LolTXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tAdhDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LoljXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tBEkDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LolzXGEe2l49Ux-yx_5Q" label="~"/>
+      <cardinality xmi:id="_42LomDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_42LomTXGEe2l49Ux-yx_5Q" name="event">
+        <modelElement href="prova_finale.uml#_4tAdgzXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42LomjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42LomzXGEe2l49Ux-yx_5Q" name="ActionEvent">
+          <modelElement href="prova_finale.uml#_4sm04TXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42LonDXGEe2l49Ux-yx_5Q" name="stampaQuinte">
+      <modelElement href="prova_finale.uml#_4tBEkjXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LonTXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tBElDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LonjXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tBElTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LonzXGEe2l49Ux-yx_5Q" label="~"/>
+      <cardinality xmi:id="_42LooDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_42LooTXGEe2l49Ux-yx_5Q" name="event">
+        <modelElement href="prova_finale.uml#_4tBEkzXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42LoojXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42LoozXGEe2l49Ux-yx_5Q" name="ActionEvent">
+          <modelElement href="prova_finale.uml#_4sm04TXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42LopDXGEe2l49Ux-yx_5Q" name="stampaSeconde">
+      <modelElement href="prova_finale.uml#_4tBroDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LopTXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tBrojXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LopjXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tBrozXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LopzXGEe2l49Ux-yx_5Q" label="~"/>
+      <cardinality xmi:id="_42LoqDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_42LoqTXGEe2l49Ux-yx_5Q" name="event">
+        <modelElement href="prova_finale.uml#_4tBroTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42LoqjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42LoqzXGEe2l49Ux-yx_5Q" name="ActionEvent">
+          <modelElement href="prova_finale.uml#_4sm04TXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42LorDXGEe2l49Ux-yx_5Q" name="stampaTerze">
+      <modelElement href="prova_finale.uml#_4tBrpTXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LorTXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tCSsDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LorjXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tCSsTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LorzXGEe2l49Ux-yx_5Q" label="~"/>
+      <cardinality xmi:id="_42LosDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_42LosTXGEe2l49Ux-yx_5Q" name="event">
+        <modelElement href="prova_finale.uml#_4tBrpjXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42LosjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42LoszXGEe2l49Ux-yx_5Q" name="ActionEvent">
+          <modelElement href="prova_finale.uml#_4sm04TXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_42LotDXGEe2l49Ux-yx_5Q" name="calcolaCosti">
+      <modelElement href="prova_finale.uml#_4tCSszXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_42LotTXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tCStTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_42LotjXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tC5wDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_42LotzXGEe2l49Ux-yx_5Q" label="~"/>
+      <cardinality xmi:id="_42LouDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_42LouTXGEe2l49Ux-yx_5Q" name="event">
+        <modelElement href="prova_finale.uml#_4tCStDXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_42LoujXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_42LouzXGEe2l49Ux-yx_5Q" name="ActionEvent">
+          <modelElement href="prova_finale.uml#_4sm04TXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_43Ip4TXGEe2l49Ux-yx_5Q" name="Studente" associationsIn="_42z5wDXGEe2l49Ux-yx_5Q" associationsOut="_43HbwDXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4p8icDXGEe2l49Ux-yx_5Q"/>
+    <visualProperties xmi:id="_43Ip4jXGEe2l49Ux-yx_5Q" position="914.0,78.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_43Ip4zXGEe2l49Ux-yx_5Q" label="+"/>
+    <attributes xmi:id="_43Ip5DXGEe2l49Ux-yx_5Q" name="idStudente">
+      <modelElement href="prova_finale.uml#_4tatMDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43Ip5TXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43Ip5jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_43Ip5zXGEe2l49Ux-yx_5Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_43Ip6DXGEe2l49Ux-yx_5Q" name="classe">
+      <modelElement href="prova_finale.uml#_4tbUQDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43Ip6TXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43Ip6jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_43Ip6zXGEe2l49Ux-yx_5Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_43Ip7DXGEe2l49Ux-yx_5Q" name="sezione">
+      <modelElement href="prova_finale.uml#_4tbUQTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43Ip7TXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43Ip7jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_43Ip7zXGEe2l49Ux-yx_5Q" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_43Ip8DXGEe2l49Ux-yx_5Q" name="indirizzo">
+      <modelElement href="prova_finale.uml#_4tbUQjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43Ip8TXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43Ip8jXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_43Ip8zXGEe2l49Ux-yx_5Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_43Ip9DXGEe2l49Ux-yx_5Q" name="pagella">
+      <modelElement href="prova_finale.uml#_4tbUQzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43Ip9TXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43Ip9jXGEe2l49Ux-yx_5Q" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_43Ip9zXGEe2l49Ux-yx_5Q" name="Voto">
+        <modelElement href="prova_finale.uml#_4qAM0zXGEe2l49Ux-yx_5Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_43Ip-DXGEe2l49Ux-yx_5Q" name="Studente">
+      <modelElement href="prova_finale.uml#_4p9JgDXGEe2l49Ux-yx_5Q"/>
+      <keywords xmi:id="_43Ip-TXGEe2l49Ux-yx_5Q" keyword="create"/>
+      <visibility xmi:id="_43Ip-jXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43Ip-zXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43Ip_DXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p9JhzXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43Ip_TXGEe2l49Ux-yx_5Q" name="Studente">
+          <modelElement href="prova_finale.uml#_4p8icDXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_43Ip_jXGEe2l49Ux-yx_5Q" name="idStudente">
+        <modelElement href="prova_finale.uml#_4p9JgTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43Ip_zXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_43IqADXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_43IqATXGEe2l49Ux-yx_5Q" name="classe">
+        <modelElement href="prova_finale.uml#_4p9JgjXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43IqAjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_43IqAzXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_43IqBDXGEe2l49Ux-yx_5Q" name="sezione">
+        <modelElement href="prova_finale.uml#_4p9JgzXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43IqBTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_43IqBjXGEe2l49Ux-yx_5Q" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_43IqBzXGEe2l49Ux-yx_5Q" name="indirizzo">
+        <modelElement href="prova_finale.uml#_4p9JhDXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43IqCDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_43IqCTXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_43IqCjXGEe2l49Ux-yx_5Q" name="contaInsufficienze">
+      <modelElement href="prova_finale.uml#_4p9wkDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43IqCzXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43IqDDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43IqDTXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p9wkTXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43IqDjXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_43IqDzXGEe2l49Ux-yx_5Q" name="hashCode">
+      <modelElement href="prova_finale.uml#_4p9wkjXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_43IqEDXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4p9wlDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_43IqETXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4p-XoDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_43IqEjXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43IqEzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43IqFDXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p9wkzXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43IqFTXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_43IqFjXGEe2l49Ux-yx_5Q" name="toString">
+      <modelElement href="prova_finale.uml#_4p-XojXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_43IqFzXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4p-XpDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_43IqGDXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4p-XpTXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_43IqGTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43IqGjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43IqGzXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4p-XozXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43IqHDXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_43IqHTXGEe2l49Ux-yx_5Q" name="alzaVoti">
+      <modelElement href="prova_finale.uml#_4p-XpzXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43IqHjXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43IqHzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_43IqIDXGEe2l49Ux-yx_5Q" name="clearPagella">
+      <modelElement href="prova_finale.uml#_4p--sDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43IqITXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43IqIjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_43IqIzXGEe2l49Ux-yx_5Q" name="aggiungiVoto">
+      <modelElement href="prova_finale.uml#_4s1eYDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43IqJDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43IqJTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43IqJjXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4s2FcTXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43IqJzXGEe2l49Ux-yx_5Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_43IqKDXGEe2l49Ux-yx_5Q" name="v">
+        <modelElement href="prova_finale.uml#_4s2FcDXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43IqKTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_43IqKjXGEe2l49Ux-yx_5Q" name="Voto">
+          <modelElement href="prova_finale.uml#_4qAM0zXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_43IqKzXGEe2l49Ux-yx_5Q" name="getVoto">
+      <modelElement href="prova_finale.uml#_4s2FcjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43IqLDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43IqLTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43IqLjXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4s2FdDXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43IqLzXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_43IqMDXGEe2l49Ux-yx_5Q" name="m">
+        <modelElement href="prova_finale.uml#_4s2FczXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43IqMTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_43IqMjXGEe2l49Ux-yx_5Q" name="Materia">
+          <modelElement href="prova_finale.uml#_4pzYgjXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_43IqMzXGEe2l49Ux-yx_5Q" name="equals">
+      <modelElement href="prova_finale.uml#_4tJncDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_43IqNDXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tJnczXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_43IqNTXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tJndDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_43IqNjXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43IqNzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43IqODXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4tJncjXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43IqOTXGEe2l49Ux-yx_5Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_43IqOjXGEe2l49Ux-yx_5Q" name="obj">
+        <modelElement href="prova_finale.uml#_4tJncTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43IqOzXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_43IqPDXGEe2l49Ux-yx_5Q" name="Object">
+          <modelElement href="prova_finale.uml#_4tF9EDXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_43NiYDXGEe2l49Ux-yx_5Q" name="Voto" associationsIn="_43HbwDXGEe2l49Ux-yx_5Q">
+    <modelElement href="prova_finale.uml#_4qAM0zXGEe2l49Ux-yx_5Q"/>
+    <visualProperties xmi:id="_43NiYTXGEe2l49Ux-yx_5Q" position="221.0,152.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_43NiYjXGEe2l49Ux-yx_5Q" label="+"/>
+    <attributes xmi:id="_43NiYzXGEe2l49Ux-yx_5Q" name="risultato">
+      <modelElement href="prova_finale.uml#_4tb7UDXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43NiZDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43NiZTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_43NiZjXGEe2l49Ux-yx_5Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_43NiZzXGEe2l49Ux-yx_5Q" name="anno">
+      <modelElement href="prova_finale.uml#_4tb7UTXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43NiaDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43NiaTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_43NiajXGEe2l49Ux-yx_5Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_43NiazXGEe2l49Ux-yx_5Q" name="materia">
+      <modelElement href="prova_finale.uml#_4tb7UjXGEe2l49Ux-yx_5Q"/>
+      <visibility xmi:id="_43NibDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43NibTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <type xmi:id="_43NibjXGEe2l49Ux-yx_5Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_43NibzXGEe2l49Ux-yx_5Q" name="Voto">
+      <modelElement href="prova_finale.uml#_4qAz4DXGEe2l49Ux-yx_5Q"/>
+      <keywords xmi:id="_43NicDXGEe2l49Ux-yx_5Q" keyword="create"/>
+      <visibility xmi:id="_43NicTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43NicjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43NiczXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4qAz5jXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43NidDXGEe2l49Ux-yx_5Q" name="Voto">
+          <modelElement href="prova_finale.uml#_4qAM0zXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_43NidTXGEe2l49Ux-yx_5Q" name="risultato">
+        <modelElement href="prova_finale.uml#_4qAz4TXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43NidjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_43NidzXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_43NieDXGEe2l49Ux-yx_5Q" name="anno">
+        <modelElement href="prova_finale.uml#_4qAz4jXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43NieTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_43NiejXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_43NiezXGEe2l49Ux-yx_5Q" name="materia">
+        <modelElement href="prova_finale.uml#_4qAz4zXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43NifDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_43NifTXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_43NifjXGEe2l49Ux-yx_5Q" name="hashCode">
+      <modelElement href="prova_finale.uml#_4qAz5zXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_43NifzXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4qBa8TXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_43NigDXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4qBa8jXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_43NigTXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43NigjXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43NigzXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4qBa8DXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43NihDXGEe2l49Ux-yx_5Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_43NihTXGEe2l49Ux-yx_5Q" name="toString">
+      <modelElement href="prova_finale.uml#_4qBa9DXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_43NihjXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4qCCADXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_43NihzXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4qCCATXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_43NiiDXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43NiiTXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43NiijXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4qBa9TXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43NiizXGEe2l49Ux-yx_5Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_43NijDXGEe2l49Ux-yx_5Q" name="equals">
+      <modelElement href="prova_finale.uml#_4tK1kDXGEe2l49Ux-yx_5Q"/>
+      <stereotypes xmi:id="_43NijTXGEe2l49Ux-yx_5Q" name="LegacyStyledElement">
+        <modelElement href="prova_finale.uml#_4tK1kzXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_43NijjXGEe2l49Ux-yx_5Q" name="Annotations">
+        <modelElement href="prova_finale.uml#_4tK1lDXGEe2l49Ux-yx_5Q"/>
+      </stereotypes>
+      <visibility xmi:id="_43NijzXGEe2l49Ux-yx_5Q" label="+"/>
+      <cardinality xmi:id="_43NikDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_43NikTXGEe2l49Ux-yx_5Q">
+        <modelElement href="prova_finale.uml#_4tK1kjXGEe2l49Ux-yx_5Q"/>
+        <type xmi:id="_43NikjXGEe2l49Ux-yx_5Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_43NikzXGEe2l49Ux-yx_5Q" name="obj">
+        <modelElement href="prova_finale.uml#_4tK1kTXGEe2l49Ux-yx_5Q"/>
+        <cardinality xmi:id="_43NilDXGEe2l49Ux-yx_5Q" label="1" max="1" min="1"/>
+        <type xmi:id="_43NilTXGEe2l49Ux-yx_5Q" name="Object">
+          <modelElement href="prova_finale.uml#_4tF9EDXGEe2l49Ux-yx_5Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

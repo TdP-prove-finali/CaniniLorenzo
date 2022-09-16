@@ -121,6 +121,16 @@ public class Model {
 		return bocciati;
 	}
 	
+	public int[] contaRim() {
+		int[] rimandati = new int[5];
+		for (Studente s : scuola) {
+			if (s.contaInsufficienze() > 0 && s.contaInsufficienze() < 4) {
+				rimandati[s.getClasse()]++;
+			}
+		}
+		return rimandati;
+	}
+	
 	public int contaProfessori(String indirizzo) {
 		int nProfessori = 0;
 		for (int i = 0; i < 5; i++) {

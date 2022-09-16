@@ -26,6 +26,8 @@ public class StartController {
 	private int nQuarte;
 	private int nQuinte;
 	private String indirizzo;
+	private int[] bocciati;
+	private int[] rimandati;
 
     @FXML
     private ResourceBundle resources;
@@ -249,6 +251,8 @@ public class StartController {
     	
     	this.model.creaScuola(nPrime, nSeconde, nTerze, nQuarte, nQuinte, classi1, classi2, classi3, classi4, classi5, indirizzo);
     	this.model.simulaAnno();
+    	this.bocciati = this.model.contaBocciati();
+    	this.rimandati = this.model.contaRim();
     	this.btnPrime.setDisable(false);
     	this.btnSeconde.setDisable(false);
     	this.btnTerze.setDisable(false);
@@ -301,6 +305,9 @@ public class StartController {
     			txtArea.appendText(sb1.toString() + "\n");
     		}
     	}
+    	
+    	txtArea.appendText("Sono stati bocciati " + bocciati[0] + "studenti");
+    	txtArea.appendText("Sono stati rimandati " + rimandati[0] + "studenti");
     }
 
     @FXML
@@ -328,6 +335,9 @@ public class StartController {
     			txtArea.appendText(sb1.toString() + "\n");
     		}
     	}
+    	
+    	txtArea.appendText("Sono stati bocciati " + bocciati[3] + "studenti");
+    	txtArea.appendText("Sono stati rimandati " + rimandati[3] + "studenti");
     }
 
     @FXML
@@ -355,6 +365,9 @@ public class StartController {
     			txtArea.appendText(sb1.toString() + "\n");
     		}
     	}
+    	
+    	txtArea.appendText("Sono stati bocciati " + bocciati[4] + "studenti");
+    	txtArea.appendText("Sono stati rimandati " + rimandati[4] + "studenti");
     }
 
     @FXML
@@ -382,6 +395,9 @@ public class StartController {
     			txtArea.appendText(sb1.toString() + "\n");
     		}
     	}
+    	
+    	txtArea.appendText("Sono stati bocciati " + bocciati[1] + "studenti");
+    	txtArea.appendText("Sono stati rimandati " + rimandati[1] + "studenti");
     }
 
     @FXML
@@ -409,6 +425,9 @@ public class StartController {
     			txtArea.appendText(sb1.toString() + "\n");
     		}
     	}
+    	
+    	txtArea.appendText("Sono stati bocciati " + bocciati[2] + "studenti");
+    	txtArea.appendText("Sono stati rimandati " + rimandati[2] + "studenti");
     }
     
     @FXML
