@@ -288,7 +288,9 @@ public class StartController {
     	List<Materia> materie = model.getMaterie(scuola.get(1).getIndirizzo(), 1);
     	StringBuilder sb = new StringBuilder();
     	String intestazione = "Matricola";
+    	String intestazione1 = "Classe";
     	sb.append(String.format("%-10s ", intestazione));
+    	sb.append(String.format("%-8s ", intestazione1));
     	for (Materia m : materie) {
     		sb.append(String.format("%-10s ", m.getCodMat()));
     	}
@@ -298,7 +300,9 @@ public class StartController {
     		if (s.getClasse() == 1) {
     			StringBuilder sb1 = new StringBuilder();
     			String inizio = s.getIdStudente();
+    			String classe = ""+ s.getClasse() + s.getSezione();
     			sb1.append(String.format("%-10s ", inizio));
+    			sb1.append(String.format("%-8s", classe));
     			for (Voto v : s.getPagella()) {
     				sb1.append(String.format("%-10d ", v.getRisultato()));
     			}
@@ -306,8 +310,9 @@ public class StartController {
     		}
     	}
     	
-    	txtArea.appendText("Sono stati bocciati " + bocciati[0] + "studenti");
-    	txtArea.appendText("Sono stati rimandati " + rimandati[0] + "studenti");
+    	txtArea.appendText("\n");
+    	txtArea.appendText("Sono stati bocciati " + bocciati[0] + " studenti\n");
+    	txtArea.appendText("Sono stati rimandati " + rimandati[0] + " studenti");
     }
 
     @FXML
@@ -318,7 +323,9 @@ public class StartController {
     	List<Materia> materie = model.getMaterie(scuola.get(1).getIndirizzo(), 4);
     	StringBuilder sb = new StringBuilder();
     	String intestazione = "Matricola";
+    	String intestazione1 = "Classe";
     	sb.append(String.format("%-10s ", intestazione));
+    	sb.append(String.format("%-8s ", intestazione1));
     	for (Materia m : materie) {
     		sb.append(String.format("%-10s ", m.getCodMat()));
     	}
@@ -328,7 +335,9 @@ public class StartController {
     		if (s.getClasse() == 4) {
     			StringBuilder sb1 = new StringBuilder();
     			String inizio = s.getIdStudente();
+    			String classe = ""+ s.getClasse() + s.getSezione();
     			sb1.append(String.format("%-10s ", inizio));
+    			sb1.append(String.format("%-8s", classe));
     			for (Voto v : s.getPagella()) {
     				sb1.append(String.format("%-10d ", v.getRisultato()));
     			}
@@ -336,8 +345,9 @@ public class StartController {
     		}
     	}
     	
-    	txtArea.appendText("Sono stati bocciati " + bocciati[3] + "studenti");
-    	txtArea.appendText("Sono stati rimandati " + rimandati[3] + "studenti");
+    	txtArea.appendText("\n");
+    	txtArea.appendText("Sono stati bocciati " + bocciati[3] + " studenti\n");
+    	txtArea.appendText("Sono stati rimandati " + rimandati[3] + " studenti");
     }
 
     @FXML
@@ -348,7 +358,9 @@ public class StartController {
     	List<Materia> materie = model.getMaterie(scuola.get(1).getIndirizzo(), 5);
     	StringBuilder sb = new StringBuilder();
     	String intestazione = "Matricola";
+    	String intestazione1 = "Classe";
     	sb.append(String.format("%-10s ", intestazione));
+    	sb.append(String.format("%-8s ", intestazione1));
     	for (Materia m : materie) {
     		sb.append(String.format("%-10s ", m.getCodMat()));
     	}
@@ -358,7 +370,9 @@ public class StartController {
     		if (s.getClasse() == 5) {
     			StringBuilder sb1 = new StringBuilder();
     			String inizio = s.getIdStudente();
+    			String classe = ""+ s.getClasse() + s.getSezione();
     			sb1.append(String.format("%-10s ", inizio));
+    			sb1.append(String.format("%-8s", classe));
     			for (Voto v : s.getPagella()) {
     				sb1.append(String.format("%-10d ", v.getRisultato()));
     			}
@@ -366,8 +380,9 @@ public class StartController {
     		}
     	}
     	
-    	txtArea.appendText("Sono stati bocciati " + bocciati[4] + "studenti");
-    	txtArea.appendText("Sono stati rimandati " + rimandati[4] + "studenti");
+    	txtArea.appendText("\n");
+    	txtArea.appendText("Sono stati bocciati " + bocciati[4] + " studenti\n");
+    	txtArea.appendText("Sono stati rimandati " + rimandati[4] + " studenti");
     }
 
     @FXML
@@ -378,7 +393,9 @@ public class StartController {
     	List<Materia> materie = model.getMaterie(scuola.get(1).getIndirizzo(), 2);
     	StringBuilder sb = new StringBuilder();
     	String intestazione = "Matricola";
+    	String intestazione1 = "Classe";
     	sb.append(String.format("%-10s ", intestazione));
+    	sb.append(String.format("%-8s ", intestazione1));
     	for (Materia m : materie) {
     		sb.append(String.format("%-10s ", m.getCodMat()));
     	}
@@ -388,7 +405,9 @@ public class StartController {
     		if (s.getClasse() == 2) {
     			StringBuilder sb1 = new StringBuilder();
     			String inizio = s.getIdStudente();
+    			String classe = ""+ s.getClasse() + s.getSezione();
     			sb1.append(String.format("%-10s ", inizio));
+    			sb1.append(String.format("%-8s", classe));
     			for (Voto v : s.getPagella()) {
     				sb1.append(String.format("%-10d ", v.getRisultato()));
     			}
@@ -396,8 +415,9 @@ public class StartController {
     		}
     	}
     	
-    	txtArea.appendText("Sono stati bocciati " + bocciati[1] + "studenti");
-    	txtArea.appendText("Sono stati rimandati " + rimandati[1] + "studenti");
+    	txtArea.appendText("\n");
+    	txtArea.appendText("Sono stati bocciati " + bocciati[1] + " studenti\n");
+    	txtArea.appendText("Sono stati rimandati " + rimandati[1] + " studenti");
     }
 
     @FXML
@@ -408,7 +428,9 @@ public class StartController {
     	List<Materia> materie = model.getMaterie(scuola.get(1).getIndirizzo(), 3);
     	StringBuilder sb = new StringBuilder();
     	String intestazione = "Matricola";
+    	String intestazione1 = "Classe";
     	sb.append(String.format("%-10s ", intestazione));
+    	sb.append(String.format("%-8s ", intestazione1));
     	for (Materia m : materie) {
     		sb.append(String.format("%-10s ", m.getCodMat()));
     	}
@@ -418,7 +440,9 @@ public class StartController {
     		if (s.getClasse() == 3) {
     			StringBuilder sb1 = new StringBuilder();
     			String inizio = s.getIdStudente();
+    			String classe = ""+ s.getClasse() + s.getSezione();
     			sb1.append(String.format("%-10s ", inizio));
+    			sb1.append(String.format("%-8s", classe));
     			for (Voto v : s.getPagella()) {
     				sb1.append(String.format("%-10d ", v.getRisultato()));
     			}
@@ -426,8 +450,9 @@ public class StartController {
     		}
     	}
     	
-    	txtArea.appendText("Sono stati bocciati " + bocciati[2] + "studenti");
-    	txtArea.appendText("Sono stati rimandati " + rimandati[2] + "studenti");
+    	txtArea.appendText("\n");
+    	txtArea.appendText("Sono stati bocciati " + bocciati[2] + " studenti \n");
+    	txtArea.appendText("Sono stati rimandati " + rimandati[2] + " studenti");
     }
     
     @FXML

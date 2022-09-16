@@ -115,7 +115,7 @@ public class Model {
 		int[] bocciati = new int[5];
 		for (Studente s : scuola) {
 			if (s.contaInsufficienze() > 3) {
-				bocciati[s.getClasse()]++;
+				bocciati[s.getClasse()-1]++;
 			}
 		}
 		return bocciati;
@@ -125,7 +125,7 @@ public class Model {
 		int[] rimandati = new int[5];
 		for (Studente s : scuola) {
 			if (s.contaInsufficienze() > 0 && s.contaInsufficienze() < 4) {
-				rimandati[s.getClasse()]++;
+				rimandati[s.getClasse()-1]++;
 			}
 		}
 		return rimandati;
