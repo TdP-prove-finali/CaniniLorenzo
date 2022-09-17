@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import it.polito.tdp.prova_finale.model.Materia;
-import it.polito.tdp.prova_finale.model.Studente;
 import it.polito.tdp.prova_finale.model.Voto;
 
 public class ScuolaDao {

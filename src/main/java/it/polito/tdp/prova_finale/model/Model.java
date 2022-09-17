@@ -137,7 +137,7 @@ public class Model {
 			List<Materia> m = dao.getMaterie(i+1, indirizzo);
 			m = contaRimandati(m, i+1);
 			for (Materia x : m) {
-				if (x.getRimandati() > 0) {
+				if (x.getRimandati() > 3) {
 					nProfessori ++;
 				}
 			}
